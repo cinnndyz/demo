@@ -1,0 +1,14 @@
+{
+border-top-lefe-radius:0px;
+border-top-right-radius:40px;
+border-top-bottom-left-radius:40px;
+border-top-bottmo-right-radius:40px;
+}
+guarantee{
+padding-left:25px;
+padding-right:24px;
+margin:30px;
+font-size:;
+font-family:;
+line-height:1.6em;
+}
