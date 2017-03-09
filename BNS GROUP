@@ -1,8 +1,120 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head><meta charset="utf-8">
-<title>乐莫乐兮新相知</title>
-<link type="text/css"rel="bnsle"herf="">
+	<title>乐莫乐兮新相知</title>
+	<style type="text/css">
+		table tr td,th{border: 1px solid #000;}
+		.length{}
+	</style>
 </head>
+<body>
+<h1>乐莫乐兮新相知</h1>
+<a href="">小档案</a>
+<a href="">伙伴</a>
+<a href="">图片</a>
+<a href="">留言</a>
+<h2>小档案</h2>
+<h3>“乐家”怎么出现的？</h3>
+<p>脱离原公会，想创建一个和谐愉快的大家庭，公会名源于屈原<a href="">《九歌》</a>：悲莫愁兮生别离，乐莫乐兮新相知。</p>
+<h3>“乐家”大长老</h3>
+<p>柿子哥和团子麻麻咯</p>
+<img src="柿子团子.png" width="200px" height="200px">
+<h2>伙伴</h2>
+<h3>经过短暂的起步和愉快的社交，我们认识了非常非常多的小伙伴</h3>
+<ul>
+	<li>雪染baby</li>
+	<li>新婚慕慕酱</li>
+	<li>不幸的小傻塔</li>
+	<li>大明湖畔的小美</li>
+	<li>GAYGAY的风逃</li>
+	<li>南天国情报员清歌</li>
+</ul>
+<h2>图片</h2>
+<img src="漫步1.png" width="300px" height="200px"><br>
+<p>夜幕风之平原的散步</p>
+<img src="漫步2.png" width="300px" height="200px"><br>
+<p>大头宝宝和小伙伴</p>
+<img src="漫步3.png" width="200px" height="200px"><br>
+<p>原谅我好不好\(^o^)/~</p>
+<h2>留言</h2>
+<p>是不是有必要排一下门派三傻</p>
+<ol><li>不幸的小傻塔</li>
+<li>不幸的小傻塔</li>
+<li>不幸的小傻塔</li></ol>
+<table>
+	<tbody>
+		<tr>
+		    <th>怎么傻</th>
+		    <th>有多傻</th>
+		    <th>傻</th>
+		</tr>
+		<tr>
+			<td>哪里都傻</td>
+			<td>OMG</td>
+			<td>傻</td>
+		</tr>
+        <tr>
+			<td>哪里都傻</td>
+			<td>OMG</td>
+			<td>傻</td>
+		</tr>
+		<tr>
+			<td>哪里都傻</td>
+			<td>OMG</td>
+			<td>傻</td>
+		</tr>
+		<tr>
+		<td>总结 </td>
+		<td colspan="2">可爱的小傻塔 </td>
+		<!-- <td> </td> -->
+		</tr>
 
+	</tbody><!-- 创建表格的四个元素：table、tbody、tr、th、td
+
+1、<table>…</table>：整个表格以<table>标记开始、</table>标记结束。
+2、<tbody>…</tbody>：当表格内容非常多时，表格会下载一点显示一点，但如果加上<tbody>标签后，这个表格就要等表格内容全部下载完才会显示。如右侧代码编辑器中的代码。
+3、<tr>…</tr>：表格的一行，所以有几对tr 表格就有几行。
+4、<td>…</td>：表格的一个单元格，一行中包含几对<td>...</td>，说明一行中就有几列。
+5、<th>…</th>：表格的头部的一个单元格，表格表头。
+6、表格中列的个数，取决于一行中数据单元格的个数。 -->
+</table>
+<h2>互动</h2>
+<h3>填写相关信息</h3>
+<form method="post" action="">
+	<label for="e-mail">请输入邮箱地址</label>
+	<input type="text" name="e-mail" id="e-mail" value=""/>
+	<!-- 1、type：当type="text"时，输入框为文本输入框;当type="password"时, 输入框为密码输入框。2、name：为文本框命名，以备后台程序ASP 、PHP使用。3、value：为文本输入框设置默认值。(一般起到提示作用) -->
+	<p>邮箱地址请按要求格式输入</p>
+	<label for="pass">请输入密码</label>
+	<input type="password" name="pass" id="pass" value=""/><!-- 当type="password"时, 输入框为密码输入框 -->
+	<label for="pass">请重复输入密码</label>
+	<input type="password" name="pass" id="pass" value=""/><!-- 当type="password"时, 输入框为密码输入框 -->
+	<p>密码请为6-16位英文数字</p>
+	<label>性别:</label>
+	<label>男</label>
+	<input type="radio" value="1" name="gender" checked="checked">
+	<label>女</label>
+	<input type="radio" value="2" name="gender">
+	<!-- 1、type:当 type="radio" 时，控件为单选框当 type="checkbox" 时，控件为复选框2、value：提交数据到服务器的值（后台程序PHP使用）3、name：为控件命名，以备后台程序 ASP、PHP 使用4、checked：当设置 checked="checked" 时，该选项被默认选中，！同一组的单选按钮，name 取值一定要一致-->
+	<label>城市：</label>
+	<select>
+		<option value="北京">北京</option>
+		<option value="上海" selected="上海">上海</option><!-- 设置selected="selected"属性，则该选项就被默认选中。 -->
+		<option value="广州">广州</option>
+		<option value="深圳">深圳</option><!-- value="向服务器提交的值" -->
+	</select>
+	<label>爱好：</label>
+	<label>运动</label>
+	<input type="checkbox" value="3" name="运动">
+	<label>艺术</label>
+	<input type="checkbox" value="4" name="艺术">
+	<label>科学</label>
+	<input type="checkbox" value="5" name="科学"><br>
+	<label>个人描述</label>
+	<textarea>在这里输入内容……</textarea>
+	<!-- <textarea  rows="行数" cols="列数">文本</textarea>
+	1、<textarea>标签是成对出现的，以<textarea>开始，以</textarea>结束。2、cols ：多行输入域的列数。3、rows ：多行输入域的行数。4、在<textarea></textarea>标签之间可以输入默认值。 --><!-- 注意这两个属性可用css样式的width和height来代替：col用width、row用height来代替。 -->
+</form>
+<p>版权所有@团子大家族bnsle</p>
+</body>
 </html>
