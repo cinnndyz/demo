@@ -13,7 +13,7 @@
 		span{color: blue;} 
 		form,ol,table,ul{color: white;}
 		ol{font-weight:bold;}
-		a{text-decoration-line: none;}
+		a{text-decoratiortrn-line: none;}
 		#top{
 			background-color: black;}
 		#daohang{
@@ -49,7 +49,7 @@
             border-color: grey;
             background-color: grey;
             position: relative;
-            
+
          }
         #p7{
         	text-align: center;
@@ -113,35 +113,38 @@
 <ol><li>不幸的小傻塔</li>
 <li>不幸的小傻塔</li>
 <li>不幸的小傻塔</li></ol>
-<table>
-	<tbody>
-		<tr>
+<table border="0" cellpadding="0" cellspacing="0">
+	<thead>
+		<tr align="left">
 		    <th>怎么傻</th>
 		    <th>有多傻</th>
 		    <th>傻</th>
 		</tr>
+	</thead>
+		<tbody>
 		<tr>
 			<td>哪里都傻</td>
 			<td>OMG</td>
-			<td>傻</td>
+			<td><a href="">傻</a></td>
 		</tr>
         <tr>
 			<td>哪里都傻</td>
 			<td>OMG</td>
-			<td>傻</td>
+			<td><a href="">傻</a></td>
 		</tr>
 		<tr>
 			<td>哪里都傻</td>
 			<td>OMG</td>
-			<td>傻</td>
-		</tr>
+			<td><a href="">傻</a></td>
+		</tr></tbody>
+		<tfoot>
 		<tr>
 		<td>总结 </td>
 		<td colspan="2">可爱的小傻塔 </td>
 		<!-- <td> </td> -->
 		</tr>
-
-	</tbody><!-- 创建表格的四个元素：table、tbody、tr、th、td
+		</tfoot>
+	<!-- 创建表格的四个元素：table、tbody、tr、th、td
 
 1、<table>…</table>：整个表格以<table>标记开始、</table>标记结束。
 2、<tbody>…</tbody>：当表格内容非常多时，表格会下载一点显示一点，但如果加上<tbody>标签后，这个表格就要等表格内容全部下载完才会显示。如右侧代码编辑器中的代码。
