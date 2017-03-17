@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8">
+	<title>两生契</title>
+	<style type="text/css">
+	body{
+		margin: 0;padding:0;
+	}	
+	.bk{
+
+		width:100%;
+		height: 460px;
+		background-color: #eee;
+		border:1px solid #999;
+		padding: 20px;
+
+
+	}
+	.left {
+		width: 200px;
+		height:100px;
+		float: left;
+		border:1px solid #999;
+		border-radius: 10px;/*边框弧度*/
+		box-shadow: 1px 1px 1px 1px grey;/*边框阴影*/
+	}
+	.middle{
+		background-color: white;
+		padding:20px;
+		position: absolute;
+		border:1px solid #999;
+		margin-left: 220px;
+		margin-right: 160px;
+		box-shadow: 1px 1px 1px 1px grey;
+		line-height: 1.8em;
+	}
+	.right{
+		width: 120px;
+		background-color: white;
+		float: right;
+		border:1px solid grey;
+	}
+	.person{
+		background-color: grey;
+		width: 80px;
+		height: 80px;
+		margin: 20px;
+		border: 1px solid grey;
+		float: left;
+	}
+	.name{
+		float: left;
+		position: relative;
+		top: 20px;
+		left: 1em;
+
+	}
+	.left img,.right img{
+		width: 80px;
+		height: 80px;
+	}
+
+	</style>
+</head>
+<body>
+<div class="bk">
+     <div class="left">
+     	<div class="box1" id="logo"><img src="" alt="专辑封面" ></div>
+     	<p class="name">歌手信息</p>
+     </div>
+     <div class="middle">
+          <p>
+             月近黄昏照寒鸦/
+
+             断肠人青衣瘦马何处牵挂/
+
+             新船嫩藕芽渔网满落霞/
+
+             清歌越几户人家/
+
+             黄雀跃枝桠佳人阁上咿呀/
+
+             她正对霞光理着云发/
+
+             折扇尚未干他已在石桥下/
+             忽见她眼波转身红了脸颊/
+
+             小船悠悠 荡过谁的心呀/
+
+             岸边芍药正开花/
+
+             风吹动书页吹走雪月风花/
+
+             心里的悸动此刻还不愿啊告诉他/
+
+             伞上鸳鸯纸上的情话/
+
+             曾讲金榜红袖添新茶/
+
+             风吹落红蜡吹痛谁的伤疤/
+
+             他说曾梦惜因缘不负今生不负她/
+
+             缘定三生戏文不说假/
+
+             怎料一夕风雪魂逐浪花/
+
+             破城声起时他还作新画/
+
+             焉知朱楼已坍塌/
+
+             红光映白塔人散如飞鸦/
+
+             却记得那夜月圆如画/
+
+             醒木正拍下老谈客呷口茶/
+
+             一段才子佳人他红了眼角/
+
+             手中竹仗长十年寻觅她/
+
+             回头看老了年华/
+
+             他衣衫褴褛走过春秋冬夏/
+
+             不敢靠近 年少岁月翩跹的那一刹/
+
+             他还为她挑那盏灯花/
+
+             她说人海茫茫也不怕/
+
+             这一生颠沛流离荡碎牵挂/
+
+             这一世寻寻觅觅霜雪染白鬓发/
+
+             泪如雨下任歌声沙哑/
+
+             她告诉他的从未忘啊/
+
+             待这一曲唱罢拾几朵落花/ </p>
+     </div>
+     <div class="right">
+     	<div class="person"><img src="" alt="个人"></div>
+     	<div class="person"><img src="" alt="个人"></div>
+     	<div class="person"><img src="" alt="个人"></div>
+     </div>
+</div>
+</body>
+</html>
