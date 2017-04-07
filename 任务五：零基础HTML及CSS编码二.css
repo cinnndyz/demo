@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+h1{color: red;font-size: 40px;font-weight: bold;}
+h2{color: red;font-size: 18px;font-weight: bold;}
+h3{color: red;font-size: 12px;font-weight: bold;}
+
+#all{
+   
+	padding: 4px;
+	background-color: black;
+}
+#left{
+	
+	width: 60%;
+	height: auto;
+	float: left;
+	margin: 0 auto;
+}
+#header{
+	background-color: black;
+    overflow: auto;
+    position: relative;
+    width: 100%;
+}
+#header1{
+	width: 300px;
+	height: 100px;
+
+}
+
+#daohang{
+  
+	background-color: black;
+	font-size: 18px;
+	float: right;
+	padding-top: 40px;
+	padding-left: : 0px;
+	padding-right:50px;
+
+   
+}
+a{
+	text-decoration-line: none;
+	background-color: transparent;
+	
+}
+#a1{
+	color: red;
+}
+
+.cl{
+	border-style: solid;
+    border-color: transparent;
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+
+}
+#img1,#img2{
+	width:200px;
+	height:300px;
+	overflow: auto;
+}
+span{
+	background-color: transparent;
+
+}
+ul{
+	list-style-type: none;
+}
+#ol1{
+    padding:20px;
+}
+table{
+	width: 100%;
+	border-spacing:0;  
+}
+table tr td,th{
+	border: 1px solid black;
+	text-align: left;
+}
+th{
+	background-color: black;
+	color: white;
+}
+#celan{
+	position: absolute;	
+	background-color: white;
+	width:40%;
+	height: auto;
+	top: 100px;
+	right: -50px;
+	text-align:center;
+}
+#footer{
+	position: relative;
+	background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    bottom: 0;
+
+}
+.hint{
+	 display: block;
+     margin-left: 40%;
+}	
